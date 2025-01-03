@@ -44,5 +44,4 @@ The model achieved high accuracy in predicting customer churn, providing valuabl
 <h3><strong>Contributions</strong></h3>
 Contributions are welcome! Feel free to fork this repository, create a branch, and submit a pull request.
 
-<h3><strong>License</strong></h3>
-This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.
+
