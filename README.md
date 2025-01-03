@@ -1,64 +1,48 @@
+<h1> Bank Customer Churn Prediction </h1>
 
-<h1>Automobile Valuation Project</h1>
-<p>
-    <strong>Project Overview:</strong> Built a car price prediction web application using Flask, powered by a Random Forest Regressor achieving a high R² score of 0.93.
-    
-<img src="overview.png" alt="Automobile Valuation" width="600" height="800">
-</p>
+<h2><strong>Project Overview</strong></h2>
+Developed an end-to-end Bank Customer Churn Prediction solution using an Artificial Neural Network (ANN), achieving high accuracy. The solution includes a real-time prediction interface built with Streamlit, enabling the bank to predict customer churn effectively.
 
-<h2 style="color:blue;">Data Source</h2>
-<p>
-    The data was scraped from Cardekho.com, a popular website for car listings.
-</p>
+<img src="overview.png" alt="Bank Customer Churn Prediction Visualization">
 
-<h2 style="color:blue;">Tools & Technologies</h2>
+<h3><strong>Data Source</strong></h3>
+The dataset is available for download from Kaggle as a CSV file. It includes information such as customer demographics, account details, and transaction history.
+
+<h3><strong>Tools & Technologies</strong></h3>
 <ul>
     <li><strong>Programming Languages:</strong> Python</li>
-    <li><strong>Libraries:</strong> NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn</li>
-    <li><strong>Development Tools:</strong> Jupyter Notebook, VS Code, Git, Flask</li>
+    <li><strong>Libraries:</strong> NumPy, Pandas, Scikit-Learn, TensorFlow</li>
+    <li><strong>Development Tools:</strong> Jupyter Notebook, VS Code, Git, Streamlit</li>
 </ul>
 
-<h2 style="color:blue;">Key Features</h2>
+<h3><strong>Key Features</strong></h3>
 <ul>
-    <li>Data collection and preprocessing from Cardekho.com.</li>
-    <li>Exploratory Data Analysis (EDA) and feature engineering.</li>
-    <li>Built a Random Forest Regressor model to predict car prices.</li>
-    <li>Developed a user-friendly web interface with Flask to make predictions in real-time.</li>
+    <li>Exploratory Data Analysis (EDA) to understand customer data and churn patterns.</li>
+    <li>Feature Engineering to enhance model performance.</li>
+    <li>Development and training of an Artificial Neural Network (ANN) for churn prediction.</li>
+    <li>Real-time customer churn prediction interface developed using Streamlit.</li>
+    <li>Model evaluation and validation to ensure high accuracy.</li>
 </ul>
 
-<h2 style="color:blue;">ML Skills</h2>
-<ul>
-    <li>Data Manipulation & Analysis</li>
-    <li>Data Visualization (using Matplotlib and Seaborn)</li>
-    <li>Random Forest Regression Model Development</li>
-    <li>Model Evaluation & Validation (using R² score and other metrics)</li>
-</ul>
-
-<h2 style="color:blue;">Usage</h2>
+<h3><strong>Usage</strong></h3>
 <ol>
-    <li>Clone the repository:
-        <pre><code>git clone https://github.com/YourUsername/Automobile-Valuation-Project.git</code></pre>
+    <li>Clone this repository:  
+       <code>git clone https://github.com/YourUsername/Bank-Customer-Churn-Prediction.git</code>
     </li>
-    <li>Navigate to the project directory and install the dependencies:
-        <pre><code>pip install -r requirements.txt</code></pre>
+    <li>Install required dependencies:  
+       <code>pip install -r requirements.txt</code>
     </li>
-    <li>Run the Flask application:
-        <pre><code>python app.py</code></pre>
+    <li>Run the notebook or script to train and evaluate the model.</li>
+    <li>Launch the real-time prediction UI using Streamlit by running:  
+       <code>streamlit run app.py</code>
     </li>
-    <li>Visit the application in your web browser: <strong>http://127.0.0.1:5000/</strong></li>
 </ol>
 
-<h2 style="color:blue;">Results</h2>
-<p>
-    The Random Forest Regressor model achieved a high R² score of <strong>0.93</strong>, indicating that it can accurately predict car prices based on various features.
-</p>
+<h3><strong>Results</strong></h3>
+The model achieved high accuracy in predicting customer churn, providing valuable insights for banks to take preventive actions and improve customer retention.
 
-<h2 style="color:blue;">Contributions</h2>
-<p>
-    Contributions are welcome! Feel free to fork this repository, create a branch, and submit a pull request for improvements.
-</p>
+<h3><strong>Contributions</strong></h3>
+Contributions are welcome! Feel free to fork this repository, create a branch, and submit a pull request.
 
-
-
-
-
+<h3><strong>License</strong></h3>
+This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.
